@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>INTRODUCCION</title>
+	
+</head>
+<body>
+	<style >
+      body {
+        background-color: #0000cc;
+      }
+    </style>
+
+
+<h1><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+   width="700px" height="100px" viewBox="0 0 700 130">
+<style type="text/css">
+
+<![CDATA[
+
+  text {
+    filter: url(#filter);
+    fill: cyan;
+      font-family: 'Share Tech Mono', sans-serif;
+      font-size: 60px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+        }
+]]>
+</style>
+  <defs>
+
+    <filter id="filter">
+        <feFlood flood-color="black" result="black" />
+        <feFlood flood-color="red" result="flood1" />
+        <feFlood flood-color="yellow" result="flood2" />
+                <feFlood flood-color="red" result="flood3" />
+
+      <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+      <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+      <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+      <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+        <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+        <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+                <feComposite in="flood3" in2="off3a" operator="in" result="comp3" />
+
+
+        <feMerge x="700" width="100%" result="merge1">
+        <feMergeNode in = "cyan" />
+        <feMergeNode in = "comp1" />
+        <feMergeNode in = "off1b" />
+
+        <animate 
+          attributeName="y" 
+            id = "y"
+            dur ="7s"
+            
+            values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+            keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+            repeatCount = "indefinite" />
+ 
+        <animate attributeName="height" 
+            id = "h" 
+            dur ="7s"
+            
+            values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+            keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+            repeatCount = "indefinite" />
+        </feMerge>
+      
+
+      <feMerge x="700" width="100%" y="60px" height="65px" result="merge2">
+        <feMergeNode in = "black" />
+        <feMergeNode in = "comp2" />
+        <feMergeNode in = "off2b" />
+
+        <animate attributeName="y" 
+            id = "y"
+            dur ="7s"
+            values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+            keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+            repeatCount = "indefinite" />
+ 
+        <animate attributeName="height" 
+            id = "h"
+            dur = "7s"
+          
+          values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+            keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+             
+            repeatCount = "indefinite" />
+        </feMerge>
+      
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />  
+
+        <feMergeNode in="merge1" /> 
+      <feMergeNode in="merge2" />
+
+        </feMerge>
+      </filter>
+
+  </defs>
+
+<g>
+  <text x="250" y="100" class="text-center alert alert-primary ">INTRODUCCION</text>
+</g>
+</svg></h1>
+
+</body>
+
+En primer termino a lo largo del desarrollo de nuestras vidas presentamos complicaciones de salud en las cuales podemos tener control de estas en nuestras propias viviendas, en otros casos de mayor grado de complejidad requerimos de una atención superior por ende haremos uso de asistencia médica, la cual es una de las mejores herramientas para tratar la vida humana por la cual es importante que día a día más jóvenes decidan escoger carreras universitarias con ramas del área de la salud.<p>
+Acerca de la medicina en su dia a dia estan en una frecuente busqueda para brindar los mejores resultados a el individuo, el profesional médico busca en su propia experiencia y visión del mundo para así aliviar el sufrimiento y no solo el dolor es atender a lo más específico e intransferible del ser humano. Es deber de los médicos ayudar a los pacientes a mantenerse en estado de salud con medidas preventivas destinadas a evitar o aplazar complicaciones. <p>
+En cuanto a lo largo de los años la medicina ha estado siempre en constantes avances por lo que cada vez se ven nuevos tipos de enfermedades, por lo que hoy en día se ha logrado una preventiva que ha tenido un notable cambio en que disminuya la tasa de mortalidad no solo a nivel materna e infantil sino a todo nivel de individuo humano. <p>
+Por lo tanto la Medicina Se ha convertido en una de las carreras más demandas por los estudiantes al rededor del mundo, ya que está preserva la salud a largo plazo Garantizándole una integridad al individuo común. Gracias a esta profesión se tiene un alto porcentaje en la vida humana puesto que se estima que cada año nacen unos 15 millones de niños con complicaciones de salud por lo tanto llega la intervención médica llevándolos a que gracias a los avances que se tienen día a día en los sectores científicos y tecnológicos ellos pueden seguir con su desarrollo vital.<p>
+<a href="index%20(2).html"><button>VOLVER A INICIO</button></a>
+</html>
